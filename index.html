@@ -1,14 +1,71 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/layout.css">
-    <title>Document</title>
+    <title>Register-form-validation</title>
 </head>
+
 <body>
-    
-    <script src="js/script.js"></script>
+    <div class="form__container">
+        <form>
+            <h1>Registreringsformular</h1>
+            <div class="inputGroup">
+                <label for="firstname">Fornavn</label>
+                <input type="text" name="firstname " id="firstname">
+                <span class="statusMessage firstname"></span>
+            </div>
+            <div class="inputGroup">
+                <label for="surname">Efternavn</label>
+                <input type="text" name="surname" id="surname">
+                <span class="statusMessage surname"></span>
+            </div>
+
+
+            <div class=" adress ">
+                <div class="inputGroup ">
+                    <label for="road ">Vej</label>
+                    <input type="text " name="road " id="road ">
+                    <span class="statusMessage road "></span>
+                </div>
+                <div class="inputGroup ">
+                    <label for="housenumber ">Husnummer</label>
+                    <input type="text " name="housenumber " id="housenumber ">
+                    <span class="statusMessage housenumber "></span>
+                </div>
+                <div class="inputGroup ">
+                    <label for="postcode ">Postnummer</label>
+                    <input type="text " name="postcode " id="postcode ">
+                    <span class="statusMessage postcode "></span>
+                </div>
+                <div class="inputGroup ">
+                    <label for="city ">By</label>
+                    <input type="text " name="city " id="city ">
+                    <span class="statusMessage city "></span>
+                </div>
+            </div>
+
+
+            <div class="inputGroup ">
+                <label for="password ">Adgangskode</label>
+                <input type="password " name="password " id="password ">
+                <span class="statusMessage password "></span>
+            </div>
+            <div class="inputGroup ">
+                <label for="email ">Email</label>
+                <input type="email " name="email " id="email ">
+                <span class="statusMessage email"></span>
+            </div>
+            <button type="submit ">Log ind</button>
+        </form>
+
+    </div>
+
+
+    <script src="js/script.js "></script>
 </body>
+
 </html>

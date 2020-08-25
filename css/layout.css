@@ -1,0 +1,44 @@
+body {
+    background-color: lightgray;
+}
+
+.form__container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 50px 0 50px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: rgb(108, 108, 108);
+    padding: 30px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.statusMessage {
+    height: 20px;
+}
+
+label {
+    color: white;
+    margin: 20px 0 0 0;
+}
+
+input {
+    background-color: rgb(108, 108, 108);
+    height: 25px;
+    margin: 10px 0 0 0;
+}
+
+button {
+    margin-top: 30px;
+    height: 30px;
+    background-color: rgb(217, 255, 140);
+}
